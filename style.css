@@ -1,0 +1,310 @@
+:root{
+		--main-radius:5px;
+		--main-padding:5px;
+}
+
+.container{
+	display:grid;
+	height:100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1.2fr 0.8fr;
+	grid-template-areas:
+		"title title title title"
+		"nav nav nav nav"
+		"banniere banniere banniere banniere"
+		"sidebar main main main"
+		"sidebar content1 content2 content3"
+		"sidebar footer footer footer";
+	grid-gap: 0.5rem;
+	font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
+}
+
+#title{
+	display: grid;
+	grid-template-columns: 1fr;	
+	grid-template-rows: 0.5fr 0.5fr;
+	color: white;
+	grid-area: title;
+	background-color: #c1002aff;
+	grid-area: title;
+	text-align: center;
+	padding: 15px;
+	font-size: 1.3em;
+}
+
+
+nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-area: nav;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align: center;
+	padding-bottom:10px
+}
+
+/* Sidebar links */
+nav a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Active/current link */
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+}
+
+/* Links on mouse-over */
+nav a:hover:not(.active) {
+  background-color: #c1002aff;
+  color: white;
+  border-radius:var(--main-radius);
+  text-align: center;
+}
+
+
+#banniere{
+	background: url('figures/cnam.jpg') no-repeat;
+	grid-area: banniere;
+	width : auto;
+	height: 170px;
+	text-align: center;
+	padding-bottom : 10px;	
+}
+
+main{
+	text-align: justify;
+	background: white;
+	grid-area: main;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	padding-right:var(--main-padding);
+	padding-left:var(--main-padding);
+}
+
+main #lim{
+	background-color: #c1002aff;
+    color: #c1002aff;
+	widt: 100vw;
+	height: 1.5px;
+}
+
+
+main #fields{
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr;
+	grid-template-rows: 0.5fr 0.5fr;
+	height: auto;
+	text-align:center;
+	padding:15px;
+	grid-gap: 1rem;
+	color:#c1002aff;
+	font-size: 0.9em;
+	padding-bottom:10px;
+}
+
+main #teacherfig{
+	display: grid;
+	grid-template-columns: 0.05fr 0.9fr;
+	height: auto;
+	text-align:left;
+	padding:5px;
+	padding:30px;
+	grid-gap: 1rem;
+	color:#c1002aff;
+	font-size: 0.9em;
+	padding-bottom:10px;
+}
+
+
+main p{
+	font-size: 1.0em;
+}
+
+main ul{
+	font-size: 1.0em;
+}
+
+main #list{
+	border-radius:var(--main-radius);
+	font-size: 0.9em;
+	background-color: #c1002aff;
+	color: white;
+	padding:10px;
+}
+
+h2
+{
+    font-size: 1.1em;
+	color: #c1002aff;
+}
+
+#sidebar{
+	background: white;
+	grid-area: sidebar;
+	border-radius:var(--main-radius);
+	padding-top:10px;
+}
+
+/* Sidebar links */
+#sidebar a {
+	display:grid;
+	color: black;
+	text-decoration: none;
+	padding: 16px;
+	grid-template-columns : 1fr;
+	text-align: center;	
+}
+
+/* Active/current link */
+#sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+#sidebar a:hover:not(.active) {
+  background-color: #c1002aff;
+  color: white;
+  border-radius:var(--main-radius);
+}
+
+#sidebar ul
+{
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	display:grid;
+	
+}
+
+#content1{
+	color: white;
+	background: #c1002aff;
+	grid-area: content1;
+	border-radius:var(--main-radius);
+	padding:10px;
+	text-align: left;
+	height: 200px;
+	font-size: 0.8em;
+}
+
+#content1 ul{
+	padding:10px
+}
+
+#content2{
+	color: white;
+	background: #c1002aff;
+	grid-area: content2;
+	border-radius:var(--main-radius);
+	padding:10px;
+	text-align: left;
+	height: 200px;
+	font-size: 0.8em;
+}
+
+#content2 ul{
+	padding:10px
+}
+
+
+#content3{
+	color: white;
+	background: #c1002aff;
+	grid-area: content3;
+	padding:10px;
+	border-radius:var(--main-radius);
+	text-align: left;
+	height: 200px;
+	font-size: 0.8em;
+}
+
+#content3 ul{
+	padding:10px
+}
+
+table,
+td {
+    border: 1px solid #333;
+	font-size: 0.9em;
+}
+
+thead,
+tfoot {
+    background-color: #c1002aff;
+    color: #fff;
+}
+
+
+
+
+footer{
+	background: white;
+	color:black;
+	grid-area: footer;
+	border-radius:var(--main-radius);
+	padding-top:var(--main-padding);
+	text-align: center;
+	height: 100px;
+	padding-bottom:var(--main-padding);
+	font-size: 0.7em;
+}
+
+@media only screen and (max-width:750px){
+	.container{
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 0.4fr 1fr 0.2fr 2.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
+	grid-template-areas:
+		"title"
+		"nav"
+		"banniere"
+		"main"
+		"content1"
+		"content2"
+		"content3"
+		"footer"
+		"sidebar";
+	grid-gap: 0.2rem;
+	}
+	#sidebar a {
+    text-align: center;
+    float: none;
+	}
+	nav
+	{
+		display:grid;
+		grid-template-columns: 1fr;
+		justify-content: space-between;
+		list-style-type: none;
+	}
+	main #fields{
+	display: grid;
+	grid-template-columns: 1fr;
+	width : auto;
+	height: auto;
+	text-align:center;
+}
+}
+
+@media only screen and (min-width:900px){
+	.container{
+	width: 900px;
+	margin: auto;
+	display:grid;
+	height:100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 0.2fr 1fr 1.5fr 1.2fr 0.8fr;
+	grid-template-areas:
+		"title title title title"
+		"nav nav nav nav"
+		"banniere banniere banniere banniere"
+		"sidebar main main main"
+		"sidebar content1 content2 content3"
+		"sidebar footer footer footer";
+	grid-gap: 0.2rem;
+	}
+}
