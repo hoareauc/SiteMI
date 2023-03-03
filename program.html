@@ -43,7 +43,7 @@
 				</p>
 				
 				<center>
-					<table style="width:410px;">
+					<table style="width:100%;">
 						<thead>
 							<tr>
 								<th colspan="3"> Master 1</th>
@@ -51,13 +51,25 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td> <center> Course unit </center></td>
+								<td style="width:10em;"> <center> Course unit </center></td>
 								<td> <center> Course name </center></td>
-								<td> <center> ECTS </center></td>
+								<td style="width:6em;"> <center> <a href='https://education.ec.europa.eu/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system'>ECTS</a> </center></td>
 							</tr>
 							<tr>
 								<td style="color:#c1002aff;">USMC70</td>
-								<td>Applied mathematics</td>
+								<td><div>
+									<input type="checkbox" id="toggle" class="unfolder"/> 
+									<label for="toggle" class="toggle-label"><span class="unfold-icon">&#9654;</span><span class="fold-icon">&#9660;</span> <b>Applied mathematics</b></label>
+											  
+									<div class="fold">
+										This main purpose of this lecture is to provide a strong mathematical background in order solve numerically with serenity numerical methods to solve engineering problems.Topics covered include:
+										<ul>
+											<li>Linear algebra</li>
+											<li>Mathematical analysis</li>
+											<li>Differential equationsBasics of algorithms & programming</li>
+										</ul>
+									 </div>
+								  </div></td>
 								<td><center> 4 </center></td>
 							</tr>
 							<tr>
@@ -119,30 +131,30 @@
 							<tr>
 								<td> <center> Course unit </center></td>
 								<td> <center> Course name </center></td>
-								<td> <center> ECTS </center></td>
+								<td> <center> <a href='https://education.ec.europa.eu/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system'>ECTS</a> </center></td>
 							</tr>
 							<tr>
-								<td style="color:#c1002aff;">MSC77</td>
+								<td style="color:#c1002aff;">USMC77</td>
 								<td>Structural Optimization</td>
 								<td><center> 4 </center></td>
 							</tr>
 							<tr>
-								<td style="color:#c1002aff;">MSC78</td>
+								<td style="color:#c1002aff;">USMC78</td>
 								<td>Smart Structures</td>
 								<td><center> 6 </center></td>
 							</tr>
 							<tr>
-								<td style="color:#c1002aff;">MSC79</td>
+								<td style="color:#c1002aff;">USMC79</td>
 								<td>Structural Dynamics</td>
 								<td><center> 6 </center></td>
 							</tr>
 							<tr>
-								<td style="color:#c1002aff;">MSC7A</td>
+								<td style="color:#c1002aff;">USMC7A</td>
 								<td>Fluid Structure Interaction</td>
 								<td><center> 6 </center></td>
 							</tr>
 							<tr>
-								<td style="color:#c1002aff;">MSC7B</td>
+								<td style="color:#c1002aff;">USMC7B</td>
 								<td>Nonlinear Mechanics</td>
 								<td><center> 6 </center></td>
 							</tr>
@@ -170,7 +182,7 @@
 					</table>
 				</center>
 				
-				<h2 id="m1skills">Master 1 skills</h2>
+				<!-- <h2 id="m1skills">Master 1 skills</h2>
 				<div id=lim>  </div>
 				<p>
 					To be continued ...
@@ -186,9 +198,10 @@
 				<div id=lim>  </div>
 				<p>
 					To be continued ...
-				</p>	
+				</p>	 -->
 
 				</main>
+				<div id="lim">  </div>
 		<div id="sidebar">
 			<a href="#programs"> Programs </a>
 			<a href="#m1skills"> Master 1 skills </a> 
@@ -204,23 +217,11 @@
 				<li>End of classes: June.</li>
 			</ul>	
 		</div>
-		<div id="content2"><center><b>Fees</b></center>
-			<ul>
-				<li><b>6000 € per year</b></li>
-				<li>Your employer or a sponsoring company can cover the registration fees.
-			Scholarships covering tuition fees and/or living expenses can be attributed to 
-			outstanding students.</li>
-			</ul>
-		</div>
+
 		
-		<div id="content3">
-			<center><b>Contact</b></center>
-			<ul>
-				<li>Professor Jean-François Deü</li>
-				<li>Professor Luc Laurent</li>
-				<li>international@lecnam.net</li>
-			</ul>
-		</div>
+
+
+		<script src="highlights.js"></script>
 		
 		<footer>Copyright © 2022 Master in Structural Mechanics and Coupled Systems – Cnam, Paris, France. </footer>
 	

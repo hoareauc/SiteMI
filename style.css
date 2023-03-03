@@ -227,11 +227,16 @@ h2
 	padding:10px
 }
 
-table,
+table:first-child,
 td {
     border: 1px solid #333;
+	/* text-align: center; */
+	padding-top:0.3em;
 	font-size: 0.9em;
+	vertical-align:top;
 }
+
+
 
 thead,
 tfoot {
@@ -308,3 +313,50 @@ footer{
 	grid-gap: 0.2rem;
 	}
 }
+
+
+
+.fold {
+	/* background: -webkit-linear-gradient(top, #e5e5e5, #ccc); */
+	padding: 10px;
+	width: 95%;
+	height: 100%;
+	color: #000000;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.unfolder { display: none; }
+
+.toggle-label {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-icon, .fold-icon {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolder ~ .fold {
+  display: none;
+}
+.unfolder ~ label .fold-icon {
+  display: none;
+}
+
+.unfolder:checked ~ .fold {
+  display: block;
+}
+.unfolder:checked ~ label .fold-icon {
+  display: inline-block;
+}
+.unfolder:checked ~ label .unfold-icon {
+  display: none;
+}
+
+
