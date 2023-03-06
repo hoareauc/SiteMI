@@ -327,6 +327,8 @@ footer{
 	transition: all 0.3s linear;
 }
 
+
+/* Fold unfold Applied Mathematics */
 .unfolder { display: none; }
 
 .toggle-label {
@@ -359,4 +361,135 @@ footer{
   display: none;
 }
 
+/* Fold unfold Applied Mathematics */
+.unfolderUSMC71 { display: none; }
+
+.toggle-labelUSMC71 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC71, .fold-iconUSMC71 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC71 ~ .foldUSMC71 {
+  display: none;
+}
+.unfolderUSMC71 ~ label .fold-iconUSMC71 {
+  display: none;
+}
+
+.unfolderUSMC71:checked ~ .foldUSMC71 {
+  display: block;
+}
+.unfolderUSMC71:checked ~ label .fold-iconUSMC71 {
+  display: inline-block;
+}
+.unfolderUSMC71:checked ~ label .unfold-iconUSMC71 {
+  display: none;
+}
+
+/* Fold unfold Mechanical Analysis and Design */
+.unfolderUSMC72 { display: none; }
+
+.toggle-labelUSMC72 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC72, .fold-iconUSMC72 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC72 ~ .foldUSMC72 {
+  display: none;
+}
+.unfolderUSMC72 ~ label .fold-iconUSMC72 {
+  display: none;
+}
+
+.unfolderUSMC72:checked ~ .foldUSMC72 {
+  display: block;
+}
+.unfolderUSMC72:checked ~ label .fold-iconUSMC72 {
+  display: inline-block;
+}
+.unfolderUSMC72:checked ~ label .unfold-iconUSMC72 {
+  display: none;
+}
+
+/* Fold unfold Contnuum Mechanics */
+.unfolderUSMC73 { display: none; }
+
+.toggle-labelUSMC73 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC73, .fold-iconUSMC73 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC73 ~ .foldUSMC73 {
+  display: none;
+}
+.unfolderUSMC73 ~ label .fold-iconUSMC73 {
+  display: none;
+}
+
+.unfolderUSMC73:checked ~ .foldUSMC73 {
+  display: block;
+}
+.unfolderUSMC73:checked ~ label .fold-iconUSMC73 {
+  display: inline-block;
+}
+.unfolderUSMC73:checked ~ label .unfold-iconUSMC73 {
+  display: none;
+}
+
+/* Fold unfold Vibrations */
+.unfolderUSMC74 { display: none; }
+
+.toggle-labelUSMC74 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC74, .fold-iconUSMC74 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC74 ~ .foldUSMC74 {
+  display: none;
+}
+.unfolderUSMC74 ~ label .fold-iconUSMC74 {
+  display: none;
+}
+
+.unfolderUSMC74:checked ~ .foldUSMC74 {
+  display: block;
+}
+.unfolderUSMC74:checked ~ label .fold-iconUSMC74 {
+  display: inline-block;
+}
+.unfolderUSMC74:checked ~ label .unfold-iconUSMC74 {
+  display: none;
+}
 
