@@ -493,3 +493,71 @@ footer{
   display: none;
 }
 
+
+/* Fold unfold Finite Element Method */
+.unfolderUSMC75 { display: none; }
+
+.toggle-labelUSMC75 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC75, .fold-iconUSMC75 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC75 ~ .foldUSMC75 {
+  display: none;
+}
+.unfolderUSMC75 ~ label .fold-iconUSMC75 {
+  display: none;
+}
+
+.unfolderUSMC75:checked ~ .foldUSMC75 {
+  display: block;
+}
+.unfolderUSMC75:checked ~ label .fold-iconUSMC75 {
+  display: inline-block;
+}
+.unfolderUSMC75:checked ~ label .unfold-iconUSMC75 {
+  display: none;
+}
+
+/* Fold unfold Structures and composite */
+.unfolderUSMC76 { display: none; }
+
+.toggle-labelUSMC76 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC76, .fold-iconUSMC76 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC76 ~ .foldUSMC76 {
+  display: none;
+}
+.unfolderUSMC76 ~ label .fold-iconUSMC76 {
+  display: none;
+}
+
+.unfolderUSMC76:checked ~ .foldUSMC76 {
+  display: block;
+}
+.unfolderUSMC76:checked ~ label .fold-iconUSMC76 {
+  display: inline-block;
+}
+.unfolderUSMC76:checked ~ label .unfold-iconUSMC76 {
+  display: none;
+}
+
+
