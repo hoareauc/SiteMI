@@ -12,4 +12,4 @@ rsync -avb \
     --include '*.js' \
     --include 'figures/*' \
     $scriptdir/* \
-    remote
+    $remote
