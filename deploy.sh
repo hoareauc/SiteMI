@@ -1,7 +1,7 @@
 #!/bin/bash
 
 remote=$1
-scriptdir="$( dirname -- "$BASH_SOURCE"; )"
+scriptdir="$( dirname -- "$0"; )"
 
 rsync -avb \
     --exclude '*.md' \
@@ -11,5 +11,5 @@ rsync -avb \
     --include '*.css' \
     --include '*.js' \
     --include 'figures/*' \
-    scriptdir/* \
+    $scriptdir/* \
     remote
