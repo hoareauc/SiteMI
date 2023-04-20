@@ -577,7 +577,7 @@ footer{
   display: none;
 }
 
-/* Fold unfold Structures and composite */
+/* Fold unfold Structural Optimization */
 .unfolderUSMC77 { display: none; }
 
 .toggle-labelUSMC77 {
@@ -607,6 +607,39 @@ footer{
   display: inline-block;
 }
 .unfolderUSMC77:checked ~ label .unfold-iconUSMC77 {
+  display: none;
+}
+
+/* Fold unfold Smart Structures */
+.unfolderUSMC78 { display: none; }
+
+.toggle-labelUSMC78 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC78, .fold-iconUSMC78 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC78 ~ .foldUSMC78 {
+  display: none;
+}
+.unfolderUSMC78 ~ label .fold-iconUSMC78 {
+  display: none;
+}
+
+.unfolderUSMC78:checked ~ .foldUSMC78 {
+  display: block;
+}
+.unfolderUSMC78:checked ~ label .fold-iconUSMC78 {
+  display: inline-block;
+}
+.unfolderUSMC78:checked ~ label .unfold-iconUSMC78 {
   display: none;
 }
 
