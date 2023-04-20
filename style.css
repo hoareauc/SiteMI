@@ -577,4 +577,168 @@ footer{
   display: none;
 }
 
+/* Fold unfold Structural Optimization */
+.unfolderUSMC77 { display: none; }
+
+.toggle-labelUSMC77 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC77, .fold-iconUSMC77 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC77 ~ .foldUSMC77 {
+  display: none;
+}
+.unfolderUSMC77 ~ label .fold-iconUSMC77 {
+  display: none;
+}
+
+.unfolderUSMC77:checked ~ .foldUSMC77 {
+  display: block;
+}
+.unfolderUSMC77:checked ~ label .fold-iconUSMC77 {
+  display: inline-block;
+}
+.unfolderUSMC77:checked ~ label .unfold-iconUSMC77 {
+  display: none;
+}
+
+/* Fold unfold Smart Structures */
+.unfolderUSMC78 { display: none; }
+
+.toggle-labelUSMC78 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC78, .fold-iconUSMC78 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC78 ~ .foldUSMC78 {
+  display: none;
+}
+.unfolderUSMC78 ~ label .fold-iconUSMC78 {
+  display: none;
+}
+
+.unfolderUSMC78:checked ~ .foldUSMC78 {
+  display: block;
+}
+.unfolderUSMC78:checked ~ label .fold-iconUSMC78 {
+  display: inline-block;
+}
+.unfolderUSMC78:checked ~ label .unfold-iconUSMC78 {
+  display: none;
+}
+
+/* Fold unfold Structural Dynamics */
+.unfolderUSMC79 { display: none; }
+
+.toggle-labelUSMC79 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC79, .fold-iconUSMC79 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC79 ~ .foldUSMC79 {
+  display: none;
+}
+.unfolderUSMC79 ~ label .fold-iconUSMC79 {
+  display: none;
+}
+
+.unfolderUSMC79:checked ~ .foldUSMC79 {
+  display: block;
+}
+.unfolderUSMC79:checked ~ label .fold-iconUSMC79 {
+  display: inline-block;
+}
+.unfolderUSMC79:checked ~ label .unfold-iconUSMC79 {
+  display: none;
+}
+
+/* Fold unfold Fluid Sructure Interaction */
+.unfolderUSMC7A { display: none; }
+
+.toggle-labelUSMC7A {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC7A, .fold-iconUSMC7A {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC7A ~ .foldUSMC7A {
+  display: none;
+}
+.unfolderUSMC7A ~ label .fold-iconUSMC7A {
+  display: none;
+}
+
+.unfolderUSMC7A:checked ~ .foldUSMC7A {
+  display: block;
+}
+.unfolderUSMC7A:checked ~ label .fold-iconUSMC7A {
+  display: inline-block;
+}
+.unfolderUSMC7A:checked ~ label .unfold-iconUSMC7A {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC7B { display: none; }
+
+.toggle-labelUSMC7B {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC7B, .fold-iconUSMC7B {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC7B ~ .foldUSMC7B {
+  display: none;
+}
+.unfolderUSMC7B ~ label .fold-iconUSMC7B {
+  display: none;
+}
+
+.unfolderUSMC7B:checked ~ .foldUSMC7B {
+  display: block;
+}
+.unfolderUSMC7B:checked ~ label .fold-iconUSMC7B {
+  display: inline-block;
+}
+.unfolderUSMC7B:checked ~ label .unfold-iconUSMC7B {
+  display: none;
+}
 
