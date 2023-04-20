@@ -709,3 +709,36 @@ footer{
   display: none;
 }
 
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC7B { display: none; }
+
+.toggle-labelUSMC7B {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC7B, .fold-iconUSMC7B {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC7B ~ .foldUSMC7B {
+  display: none;
+}
+.unfolderUSMC7B ~ label .fold-iconUSMC7B {
+  display: none;
+}
+
+.unfolderUSMC7B:checked ~ .foldUSMC7B {
+  display: block;
+}
+.unfolderUSMC7B:checked ~ label .fold-iconUSMC7B {
+  display: inline-block;
+}
+.unfolderUSMC7B:checked ~ label .unfold-iconUSMC7B {
+  display: none;
+}
+
