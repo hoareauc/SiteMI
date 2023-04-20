@@ -577,4 +577,37 @@ footer{
   display: none;
 }
 
+/* Fold unfold Structures and composite */
+.unfolderUSMC77 { display: none; }
+
+.toggle-labelUSMC77 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC77, .fold-iconUSMC77 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC77 ~ .foldUSMC77 {
+  display: none;
+}
+.unfolderUSMC77 ~ label .fold-iconUSMC77 {
+  display: none;
+}
+
+.unfolderUSMC77:checked ~ .foldUSMC77 {
+  display: block;
+}
+.unfolderUSMC77:checked ~ label .fold-iconUSMC77 {
+  display: inline-block;
+}
+.unfolderUSMC77:checked ~ label .unfold-iconUSMC77 {
+  display: none;
+}
+
 
