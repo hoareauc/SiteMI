@@ -742,3 +742,332 @@ footer{
   display: none;
 }
 
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC87 { display: none; }
+
+.toggle-labelUSMC87 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC87, .fold-iconUSMC87 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC87 ~ .foldUSMC87 {
+  display: none;
+}
+.unfolderUSMC87 ~ label .fold-iconUSMC87 {
+  display: none;
+}
+
+.unfolderUSMC87:checked ~ .foldUSMC87 {
+  display: block;
+}
+.unfolderUSMC87:checked ~ label .fold-iconUSMC87 {
+  display: inline-block;
+}
+.unfolderUSMC87:checked ~ label .unfold-iconUSMC87 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSEEJ9 { display: none; }
+
+.toggle-labelUSEEJ9 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSEEJ9, .fold-iconUSEEJ9 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSEEJ9 ~ .foldUSEEJ9 {
+  display: none;
+}
+.unfolderUSEEJ9 ~ label .fold-iconUSEEJ9 {
+  display: none;
+}
+
+.unfolderUSEEJ9:checked ~ .foldUSEEJ9 {
+  display: block;
+}
+.unfolderUSEEJ9:checked ~ label .fold-iconUSEEJ9 {
+  display: inline-block;
+}
+.unfolderUSEEJ9:checked ~ label .unfold-iconUSEEJ9 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSEEK1 { display: none; }
+
+.toggle-labelUSEEK1 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSEEK1, .fold-iconUSEEK1 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSEEK1 ~ .foldUSEEK1 {
+  display: none;
+}
+.unfolderUSEEK1 ~ label .fold-iconUSEEK1 {
+  display: none;
+}
+
+.unfolderUSEEK1:checked ~ .foldUSEEK1 {
+  display: block;
+}
+.unfolderUSEEK1:checked ~ label .fold-iconUSEEK1 {
+  display: inline-block;
+}
+.unfolderUSEEK1:checked ~ label .unfold-iconUSEEK1 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSEEK3 { display: none; }
+
+.toggle-labelUSEEK3 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSEEK3, .fold-iconUSEEK3 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSEEK3 ~ .foldUSEEK3 {
+  display: none;
+}
+.unfolderUSEEK3 ~ label .fold-iconUSEEK3 {
+  display: none;
+}
+
+.unfolderUSEEK3:checked ~ .foldUSEEK3 {
+  display: block;
+}
+.unfolderUSEEK3:checked ~ label .fold-iconUSEEK3 {
+  display: inline-block;
+}
+.unfolderUSEEK3:checked ~ label .unfold-iconUSEEK3 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC84 { display: none; }
+
+.toggle-labelUSMC84 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC84, .fold-iconUSMC84 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC84 ~ .foldUSMC84 {
+  display: none;
+}
+.unfolderUSMC84 ~ label .fold-iconUSMC84 {
+  display: none;
+}
+
+.unfolderUSMC84:checked ~ .foldUSMC84 {
+  display: block;
+}
+.unfolderUSMC84:checked ~ label .fold-iconUSMC84 {
+  display: inline-block;
+}
+.unfolderUSMC84:checked ~ label .unfold-iconUSMC84 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC7C { display: none; }
+
+.toggle-labelUSMC7C {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC7C, .fold-iconUSMC7C {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC7C ~ .foldUSMC7C {
+  display: none;
+}
+.unfolderUSMC7C ~ label .fold-iconUSMC7C {
+  display: none;
+}
+
+.unfolderUSMC7C:checked ~ .foldUSMC7C {
+  display: block;
+}
+.unfolderUSMC7C:checked ~ label .fold-iconUSMC7C {
+  display: inline-block;
+}
+.unfolderUSMC7C:checked ~ label .unfold-iconUSMC7C {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC86 { display: none; }
+
+.toggle-labelUSMC86 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC86, .fold-iconUSMC86 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC86 ~ .foldUSMC86 {
+  display: none;
+}
+.unfolderUSMC86 ~ label .fold-iconUSMC86 {
+  display: none;
+}
+
+.unfolderUSMC86:checked ~ .foldUSMC86 {
+  display: block;
+}
+.unfolderUSMC86:checked ~ label .fold-iconUSMC86 {
+  display: inline-block;
+}
+.unfolderUSMC86:checked ~ label .unfold-iconUSMC86 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC85 { display: none; }
+
+.toggle-labelUSMC85 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC85, .fold-iconUSMC85 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC85 ~ .foldUSMC85 {
+  display: none;
+}
+.unfolderUSMC85 ~ label .fold-iconUSMC85 {
+  display: none;
+}
+
+.unfolderUSMC85:checked ~ .foldUSMC85 {
+  display: block;
+}
+.unfolderUSMC85:checked ~ label .fold-iconUSMC85 {
+  display: inline-block;
+}
+.unfolderUSMC85:checked ~ label .unfold-iconUSMC85 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUSMC88 { display: none; }
+
+.toggle-labelUSMC88 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUSMC88, .fold-iconUSMC88 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUSMC88 ~ .foldUSMC88 {
+  display: none;
+}
+.unfolderUSMC88 ~ label .fold-iconUSMC88 {
+  display: none;
+}
+
+.unfolderUSMC88:checked ~ .foldUSMC88 {
+  display: block;
+}
+.unfolderUSMC88:checked ~ label .fold-iconUSMC88 {
+  display: inline-block;
+}
+.unfolderUSMC88:checked ~ label .unfold-iconUSMC88 {
+  display: none;
+}
+
+/* Fold unfold Nonlinear Mechanics */
+.unfolderUAMC08 { display: none; }
+
+.toggle-labelUAMC08 {
+	display: inline-block;
+	cursor: pointer;
+	/* font-size: 15px; */
+	border-radius: 5px;
+	padding: 5px;
+}
+.unfold-iconUAMC08, .fold-iconUAMC08 {
+  color: #999;
+  // fixed width to stop the icon from wiggling
+  width: 10px;
+  display: inline-block;
+}
+.unfolderUAMC08 ~ .foldUAMC08 {
+  display: none;
+}
+.unfolderUAMC08 ~ label .fold-iconUAMC08 {
+  display: none;
+}
+
+.unfolderUAMC08:checked ~ .foldUAMC08 {
+  display: block;
+}
+.unfolderUAMC08:checked ~ label .fold-iconUAMC08 {
+  display: inline-block;
+}
+.unfolderUAMC08:checked ~ label .unfold-iconUAMC08 {
+  display: none;
+}
