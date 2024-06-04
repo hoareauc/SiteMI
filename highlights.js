@@ -13,7 +13,7 @@ document.write('\
 </div>\
 <div id="content2"><center><b>Fees</b></center>\
 <ul>\
-    <li><b>3770 € per year</b></li>\
+    <li><b>3879 € per year</b></li>\
     <li>Your employer or a sponsoring company can cover the registration fees.</li>\
     <li>Scholarships covering tuition fees and/or living expenses can be attributed to \
 outstanding students.</li>\
