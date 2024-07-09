@@ -7,7 +7,7 @@ document.write('\
     <li>Arrival: till end of September</li>\
 </ul>\
 <ul>\
-    <li>Start of classes: October</li>\
+    <li>Start of classes: mid-September</li>\
     <li>End of classes: June</li>\
 </ul>	\
 </div>\
